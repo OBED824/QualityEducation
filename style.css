@@ -1,0 +1,711 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background: url("./pics/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: darkblue;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 6px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px 2px rgb(160, 157, 157);
+    border-radius: 5px;
+    font-size: 25px;
+    width: 100%;
+}
+
+header .her {
+    display: flex;
+}
+
+header .her p {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+header img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+}
+
+header ul li {
+    padding-right: 10px;
+}
+.our{
+    box-shadow: 1px 1px 2px rgb(181, 166, 107);
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: rgb(44, 139, 93);
+    border-radius: 6px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    border: 0px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    padding: 10px;
+}
+
+.next {
+    display: flex;
+    margin-top: 5px;
+    box-shadow: 3px 3px 5px rgb(51, 47, 47);
+    width: 97%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+    height: auto;
+}
+
+.next .left {
+    width: 35%;
+    margin-right: 40px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgb(155, 139, 139);
+    padding-top: 20px;
+}
+
+.right h2 {
+    color: yellowgreen;
+}
+
+.next img {
+    width: 100%;
+}
+
+.next .right {
+    width: 50%;
+    word-spacing: 5px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 23px;
+    box-shadow: 3px 3px 5px black;
+    height: auto;
+    margin-top: 7%;
+}
+
+
+.next ul {
+    background: transparent;
+}
+
+.next .right h2 {
+    margin-bottom: 13px;
+}
+
+.info {
+    display: flex;
+    box-shadow: 3px 5px 8px black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.bio div{
+    flex-wrap: wrap;
+}
+
+.info .right1 {
+    width: 50%;
+    box-shadow: 5px 5px 10px rgb(127, 96, 96);
+    border-radius: 16px;
+}
+
+.left1 h2 {
+    color: yellowgreen
+}
+
+.vow {
+    color: brown;
+}
+
+.info .left1 {
+    box-shadow: 3px 3px 3px black;
+    height: 35vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15%;
+    margin-top: 5%;
+    padding-left: 23px;
+}
+
+
+.info .right1 img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.671);
+    border-radius: 10px;
+    height: 50vh;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    width: 100%;
+}
+
+footer .all {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
+footer .icons {
+    font-size: 30px;
+    margin-right: 15px;
+    text-align: left;
+}
+
+footer .her {
+    width: 120px;
+    display: flex;
+
+}
+
+footer img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+footer .her p {
+    padding-top: 15px;
+}
+
+.fet {
+    width: 30%;
+    margin: 0;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+footer .fet {
+    padding: 10px;
+}
+
+.fat ul {
+    list-style: none;
+}
+
+.fat {
+    margin-top: 30px;
+
+}
+
+.faty a {
+
+    text-decoration: none;
+    color: aliceblue;
+    color: yellow;
+}
+
+.faty ul {
+    list-style: none;
+}
+
+
+
+.para {
+    margin-top: 10px;
+}
+
+.fa-twitter {
+    color: azure;
+}
+
+.fa-instagram {
+    color: rgb(152, 52, 52);
+}
+
+.fa-whatsapp {
+    color: green;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.stat {
+    width: 20%;
+   box-shadow: 3px 3px 12px rgb(231, 203, 203);
+    border-radius: 10px;
+    height: 38vh;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.stat ul {
+    list-style: none;
+}
+
+.stat img {
+    width: 100px
+}
+
+.stat .po {
+    border-radius: 50%;
+}
+
+.bio {
+    display: flex;
+    /* padding-left: 12%; */
+    height: auto;
+    box-shadow: 3px 3px 12px rgb(231, 203, 203);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 40px; */
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.life{
+    /* flex-wrap: wrap; */
+    width: 100%;
+    justify-content: center;
+    height: auto;
+}
+
+.bio div {
+    /* margin-left: 5%;++ */
+}
+
+.you {
+    width: 20%;
+      box-shadow: 3px 3px 12px rgb(231, 203, 203);
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.you u {
+    color: red;
+}
+
+.life {
+    display: flex;
+    /* margin-left: 200px; */
+    /* flex-wrap: wrap; */
+    margin: 30px;
+    /* margin-bottom: 30px; */
+}
+
+.life div {
+    margin-left: 30px;
+}
+
+.top h2 {
+    color: yellowgreen;
+    font-size: 30px;
+}
+
+.stay {
+    width: 25%;
+   box-shadow: 3px 3px 12px rgb(231, 203, 203);
+    border-radius: 10px;
+    height: auto;
+    /* margin-top: 10px; */
+    /* padding-left: 8px; */
+    padding: 20px;
+    margin: 6px;
+}
+
+.stay h3 {
+    text-align: center;
+    color: rgb(86, 134, 14);
+    margin: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 80%;
+    margin: 30px;
+    /* margin-top: 10px; */
+}
+
+.top ul {
+    padding-left: 4.5%;
+}
+
+.h {
+    color: rgb(169, 140, 68);
+    font-size: 30px;
+    text-align: center;
+}
+
+.over {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.set {
+    width: 50%;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.sat {
+    width: 49%;
+    box-shadow: 2px 2px 6px black;
+    border-radius: 5px;
+    height: 69.5vh;
+}
+
+.sat p {
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.sat input,
+textarea {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    margin-left: 2%;
+}
+
+.btn button {
+    width: 20%;
+    padding: 10px;
+    background: yellowgreen;
+    color: azure;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    margin-left: 2%;
+}
+.back{
+    background: url("pics/20251023_081727.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.over img {
+    width: 250px;
+    border-radius: 100%;
+    padding-right: 15px;
+    margin-top: 25px;
+    box-shadow: 1px rgb(84, 72, 72);
+}
+
+.grade {
+    display: flex;
+    box-shadow: 2px 2px 2px rgb(105, 98, 89);
+    margin-top: 14px;
+    margin-right: 10px;
+    border-radius: 6px;
+    height: 48vh;
+}
+@media screen and (max-width: 600px){
+    *{
+        font-size: 19px;
+    }
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 2px rgb(160, 157, 157);
+    border-radius: 5px;
+    font-size: 5px;
+    height: 80px;
+     margin-bottom: 40px;
+    width: 100%;
+    padding-top: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+header .her {
+    display: flex;
+}
+
+header .her p {
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    margin-right: 0;
+    padding-left: 8px;
+    margin-top: 0;
+}
+
+header ul li{
+    width: auto;
+}
+.our{
+    display: none;
+}
+
+.over{
+
+    margin-top: 20px;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.over .sat{
+    border: none;
+    box-shadow: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.over .sat p{
+    margin: 14px;
+}
+
+.over .sat button{
+    width: 120px;
+}
+
+.over .sat input,textarea
+{
+    width: 90%;
+    font-size: 16px;
+
+}
+
+
+.sat input:nth-child(1){
+    margin-top: 10px;
+}
+header a {
+    text-decoration: none;
+    font-size: 12.5px;
+    border: 0px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    padding: 10px;
+}
+header img {
+    width: 70px;
+    border-radius: 50%;
+    display: none;
+}
+.banner {
+    height: 30vh;
+    font-size: 30px;
+    border-radius: 6px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next{
+
+    padding: 0;
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+    height: auto;
+    padding: 10px;
+    box-shadow: none;
+    /* overflow: h; */
+}
+.next .right {
+    width: 100%;
+    font-size: 15px;
+    margin: 0;
+    box-shadow: none;
+    margin-top: 18px;
+    
+}
+.next img{
+    width: 100%;
+}
+.next .left{
+    width: 100%;
+    /* padding-right: 5%; */
+    margin-top: 10px;
+    margin: 0;
+    box-shadow: none;
+}
+
+.right{
+        /* height: 450px; */
+
+}
+
+.left img{
+    width: 100%;
+}
+.info .right1 {
+    width: auto;
+    border-radius: 10px;
+    margin-left: 2px;
+
+}
+.right1 img{
+    width: 100%;
+    margin-left: 14%;
+    padding: auto;
+}
+.info .left1{
+    font-size: 19px;
+}
+.right1{
+    margin-right: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.next{
+    flex-direction: column;
+}
+.info{
+    flex-direction: column;
+}
+footer .all{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  
+}
+footer{
+    height: auto;
+    padding: 0;
+}
+.fet {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+    padding-right: 0;
+  
+}
+
+.fet .icons{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    margin-top: 10px;
+}
+
+.fet .her{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-bottom: 20px;
+    width: 100%;
+    /* display: none; */
+}
+
+.bio .stat{
+    width: 80%;
+    height: 35vh;
+}
+.bio div{
+width: 80%;
+
+}
+.bio{
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: none;
+    padding-bottom: 18px;
+    align-items: center;
+    justify-content: center;
+}
+.life{
+    flex-direction: column;
+    height: 70vh;
+    margin-right: 15%;
+}
+
+.life .you{
+    width: 90%;
+}
+.over{
+    flex-direction: column;
+    height: auto;
+    font-size: 20px;
+}
+.over .set{
+    display: none;
+}
+.over input{
+    width: 90%;
+}
+.over button{
+    width: auto;
+}
+.sat{
+    width: 100%;
+}
+.top{
+    flex-direction: column;
+}
+.top .stay, .life{
+    width: 80%;
+    margin-left: 12%;
+}
+
+}
